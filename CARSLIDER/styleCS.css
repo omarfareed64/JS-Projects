@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  height: 700px;
+  width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.slider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.slider:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#back {
+  left: 20px;
+}
+
+#next {
+  right: 20px;
+}

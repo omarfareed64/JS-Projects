@@ -1,0 +1,59 @@
+#diceroller{
+    text-align: center;
+}
+#diceroller label{
+    font-size: large;
+}
+#numofdice{
+    text-align: center; 
+    font-weight: bold;
+    width: 50px;
+    font-size: large;
+}
+#diceimages img{
+    width: 150px;
+}
+
+#tempconv{
+    text-align: center;
+    padding: 2px;
+    height: 350px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px ;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 0%,.3);
+}
+#tempvalue,#tempresult{
+    text-align: center;
+    font-size: x-large;
+    width: 65%;
+}
+#tempresult{
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+}
+button{
+    color:white;
+    background-color:blue;
+    padding: auto;
+    font-size: large;
+    width: auto;
+    height: auto;
+}
+button:hover{
+    color: blue;
+    background-color: white;
+}
+#rollbtn{
+    color: aqua;
+    background-color: black;
+    font-size: xx-large;
+    margin:4px 5px;
+    padding: 5px 10px;
+}
+#rollbtn:hover{
+    color: red;
+    background-color: white;
+}
